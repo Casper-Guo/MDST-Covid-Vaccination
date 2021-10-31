@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 
 link_race_ethnicity = "https://github.com/Casper-Guo/MDST-Covid-Vaccination/blob/main/percent_vaccinated_race_ethnicity.xlsx?raw=true"
 df_race_ethnicity = pd.read_excel(link_race_ethnicity)
