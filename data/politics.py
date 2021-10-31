@@ -6,3 +6,5 @@ state_parties = raw_df \
     .rename({'Unnamed: 0': 'STATE'}, axis=1) \
     .drop(['Unnamed: 3', 'Unnamed: 4'], axis=1) \
     .dropna()
+
+state_parties["STATE"] = state_parties["STATE"].map(lamba x: x.upper())
