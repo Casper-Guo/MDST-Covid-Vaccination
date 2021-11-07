@@ -7,4 +7,4 @@ state_parties = raw_df \
     .drop(['Unnamed: 3', 'Unnamed: 4'], axis=1) \
     .dropna()
 
-state_parties["STATE"] = state_parties["STATE"].map(lamba x: x.upper())
+state_parties["STATE"] = state_parties["STATE"].map(lambda x: x.upper())
